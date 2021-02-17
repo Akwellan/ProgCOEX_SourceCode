@@ -19,7 +19,7 @@ namespace Siemens.Opc.DaClient.Controller
         enum ClientHandles
         {
             Item1 = 0, //Zumbach OF
-            Item2, //Zumbach Pross
+            Item2, //Zumbach Prosse
             Item3, //Zumbach Matiere Tube
             Item4, //Zumbach Matiere Tube
             Item15, //Zumbach Matiere Tube
