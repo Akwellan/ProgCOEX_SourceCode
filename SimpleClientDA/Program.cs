@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-
 using Siemens.Opc.Da;
+using Dashboard;
 
 namespace Siemens.Opc.DaClient
 {
@@ -16,7 +16,7 @@ namespace Siemens.Opc.DaClient
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SimpleClientDA());
+            Application.Run(new ProgCOEX());
         }
     }
 }
